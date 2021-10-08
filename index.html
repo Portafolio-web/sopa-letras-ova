@@ -33,7 +33,7 @@
             var mytag;
             $(document).ready(function () {
                 mytag = $("#myTags").tagit({});
-				Crear();
+                Crear();
             });
 </script>
     <div style="visibility:hidden">
@@ -85,7 +85,8 @@
      <div class="panel-heading ocultar"><h4 style="font-family:createland; font-size: 2.5rem;">Encuentra los personajes y temas de El Origen Muisca en tu sopa de letras "Konecta Muisca"</h4></div>
     <div class="panel-body">
          <form action="https://portafolio-web.github.io/dibujo-ova/dibuja.html">
-        <input type="image" src="images/siguiente.png" style="position: absolute; right: 10%; top: 12%;" >
+            <p>
+        <input type="image" src="images/siguiente.png" style="position: absolute; right: 10%; top: 12%;" ></p>
 </form>
     <div class="ocultar">
     <button onclick="Crear();" class="btn btn-success btn-lg" style="background-color: #4A9B9F; font-family: comfortaa;"> Reiniciar</button>
@@ -98,14 +99,18 @@
 </div>
 <div class="container">
         <div class="row">
-        <div class="col-md-4">
+            <center>
+        <div class="col-md-1">
                         <div id='Palabras'></div>
 
         </div>
-                <div class="col-md-6">
-                        <div id='juego'></div>
+        <center>
+                <div class="col-md-6"
+                style="padding-left: 160px;">
+                        <div id='juego'></div></center>
 
                 </div>
+                </center>
             </div>
     </div>
   </div>
